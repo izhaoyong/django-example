@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+
+        {% if question_id %}
+            有投票了 {{ question_id }}
+        {% else %}
+            <p>No polls are available.</p>
+        {% endif %}
+
+        <button type="button" name="button" class="post">Click</button>
+
+        <script src="{% static 'polls/hello.js' %}"></script>
+    </body>
+</html>
