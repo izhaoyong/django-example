@@ -1,0 +1,20 @@
+{
+	"next_page": -1,
+	"result": {
+		"author_info": {
+			"auth_name": "金庸",
+			"coords_optimistic": 2,
+			"coords_rationalism": -2,
+			"download_pic_url": "https://soda-func.oss-cn-shanghai.aliyuncs.com/template/%E6%AF%9B%E5%A7%86%403x.jpg",
+			"gender": 1,
+			"look_in_app_pic_url": "https://soda-func.oss-cn-shanghai.aliyuncs.com/template/%E6%AF%9B%E5%A7%86App%E5%86%85.jpg",
+			"look_not_in_app_pic_url": "https://soda-func.oss-cn-shanghai.aliyuncs.com/template/%E6%AF%9B%E5%A7%86App%E5%A4%96.jpg"
+		},
+		"download_pic_url": "https://soda-func.oss-cn-shanghai.aliyuncs.com/author_character/CbwcS_1548332943054_download.jpg",
+		"view_pic_url": "https://soda-func.oss-cn-shanghai.aliyuncs.com/author_character/11444_1548318854804_view.jpg"
+	},
+	"status": {
+		"code": 0
+	},
+	"total_count": -1
+}
