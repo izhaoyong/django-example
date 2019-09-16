@@ -4,7 +4,7 @@ latest_question_list = [
 		'question_text': "hahah"
 	}
 ]
-print(latest_question_list)
+
 
 
 def test():
@@ -14,4 +14,13 @@ def test():
 	print(latest_question_list)
 
 
-test()
+# test()
+
+
+def main():
+	DATABASE_APPS_MAPPING = {'app1': 'db1', 'app2': 'db2'}
+	label = 'app1'
+	if label in DATABASE_APPS_MAPPING:
+		print(DATABASE_APPS_MAPPING[label])
+
+main()

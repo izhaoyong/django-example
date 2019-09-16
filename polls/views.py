@@ -49,12 +49,14 @@ logger = logging.getLogger(__name__)
 @csrf_exempt
 def post_message(request):
 
+
+	bookInfo = BookInfo(source_id='35463546', author='hao', info='{"name": "hello"}')
+
 	# import pdb
 	# pdb.set_trace()
-	bookInfo = BookInfo.objects.using('mysql')(source_id='35463546', info='{"name": "hello"}')
-	bookInfo.save()
-	# print(bookInfo.source_id)
 
+	bookInfo.save()
+	print(bookInfo)
 
 	response = {
 		'status': 200
